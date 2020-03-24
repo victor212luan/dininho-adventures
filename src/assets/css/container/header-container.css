@@ -1,0 +1,30 @@
+.header-container{
+  background: url('../../images/screen-desktop.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header-container img{
+  display: block;
+  margin: auto;
+  padding-top: 60px;
+  width: 500px;
+  height: 170px;
+}
+
+@media(max-width: 420px){
+  .header-container{
+    background: url('../../images/screen-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .header-container img{
+    width: 170px;
+    height: 60px;
+    padding-top: 80px;
+  }
+}
+
