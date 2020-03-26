@@ -14,17 +14,19 @@
   height: 170px;
 }
 
-@media(max-width: 420px){
+@media(max-width: 320px){
   .header-container{
     background: url('../../images/screen-mobile.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    height: 340px;
   }
+}
 
+@media(max-width: 425px){
   .header-container img{
     width: 170px;
     height: 60px;
     padding-top: 80px;
   }
 }
-
