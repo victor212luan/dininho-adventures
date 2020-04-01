@@ -9,14 +9,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: var(--gap-small);
-  margin-bottom: var(--gap-small);
+  margin-top: var(--gap-medium);
+  margin-bottom: var(--gap-medium);
 }
 
 .separator-dino::before ,
 .separator-dino::after{
   content: '';
-  width: calc(50% - var(--half-width-egg) - var(--gap-smaller));
+  width: calc(50% - var(--half-width-egg) - var(--gap-very-small));
   height: 4px;
   background-color: var(--color-first);
 }

@@ -1,3 +1,4 @@
 .section-dino{
-  padding: 0 16px;
+  padding-left: var(--gap-small);
+  padding-right: var(--gap-small);
 }
