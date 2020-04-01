@@ -1,7 +1,8 @@
-.title-main{
+.title-dino{
   font-family: 'Bungee', cursive;
   font-size: 28px;
   line-height: 36px;
-  padding-bottom: 50px;
+  margin-top: var(--gap-medium);
+  margin-bottom: var(--gap-medium);
   color: white;
 }

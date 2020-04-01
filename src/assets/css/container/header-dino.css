@@ -1,4 +1,4 @@
-.header-container{
+.header-dino{
   background: url('../../images/screen-desktop.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -6,7 +6,7 @@
   height: 100vh;
 }
 
-.header-container img{
+.header-dino img{
   display: block;
   margin: auto;
   padding-top: 60px;
@@ -15,7 +15,7 @@
 }
 
 @media(max-width: 320px){
-  .header-container{
+  .header-dino{
     background: url('../../images/screen-mobile.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@
 }
 
 @media(max-width: 425px){
-  .header-container img{
+  .header-dino img{
     width: 170px;
     height: 60px;
     padding-top: 80px;

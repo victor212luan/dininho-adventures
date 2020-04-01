@@ -1,7 +1,6 @@
-.title-secondary {
+.subtitle-dino {
   font-family: 'Bungee', cursive;
   font-size: 28px;
   line-height: 36px;
-  padding-bottom: 30px;
-  color: #73263D;
+  margin-bottom: var(--gap-small);
 }

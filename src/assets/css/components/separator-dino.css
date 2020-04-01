@@ -1,0 +1,30 @@
+.separator-dino {
+  --half-width-egg: 11px;
+  background: url(../../images/egg.png);
+  background-size: auto 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 22px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--gap-small);
+  margin-bottom: var(--gap-small);
+}
+
+.separator-dino::before ,
+.separator-dino::after{
+  content: '';
+  width: calc(50% - var(--half-width-egg) - var(--gap-smaller));
+  height: 4px;
+  background-color: var(--color-first);
+}
+
+.separator-dino::before{
+  border-radius: 0 2px 2px 0;
+}
+
+.separator-dino::after{
+  border-radius: 2px 0 0 2px;
+}
